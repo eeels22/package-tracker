@@ -1,13 +1,17 @@
-import {status, sender} from "../data/orders.json";
-import { StatusIcon } from "./StatusIcon";
+// Project files
+import StatusIcon from "./StatusIcon";
+import StatusWording from "./StatusWording";
 
-export default function OrderConcise() {
-
+export default function OrderConcise({ information }) {
   return (
     <div className="OrderConcise">
-      <StatusIcon orderStatus={status} />
-      <p className="sender">{sender}</p>
-      <p className="status">{status}</p>
+      <div className="left">
+        <StatusIcon orderStatus={information.status} />
+      </div>
+      <div className="right">
+        <p className="sender">{information.sender}</p>
+        <StatusWording orderStatus={information.status} />
+      </div>
     </div>
   );
 }
