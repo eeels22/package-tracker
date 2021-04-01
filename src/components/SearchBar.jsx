@@ -16,13 +16,15 @@ export default function SearchBar() {
     history.push(`/results/${query}`);
   }
 
-  <form onSubmit={search} className="SearchBar">
-    <input
-      type="text"
-      placeholder="Search by sender name"
-      value={query}
-      onChange={(event) => setQuery(event.target.value)}
-    />
-    <input type="submit" value="Search" />
-  </form>;
+  return (
+    <form onSubmit={search} className="SearchBar">
+      <input
+        type="text"
+        placeholder="Search by sender name"
+        value={query}
+        onChange={(event) => setQuery(event.target.value)}
+      />
+      <input type="submit" value="Search" />
+    </form>
+  );
 }
