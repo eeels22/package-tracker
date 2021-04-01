@@ -3,6 +3,9 @@
 @import url("./base/layout.css");
 
 /* Pages/Templates */
+@import url("./pages/home.css");
+@import url("./pages/parcels.css");
+@import url("./pages/results.css");
 
 /* Modules */
 @import url("./modules/header.css");
