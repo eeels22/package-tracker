@@ -1,6 +1,6 @@
 // NPM packages
-import Information from "./data/orders.json";
-import OrderDetailed from "./components/OrderDetailed";
+import Information from "../data/orders.json";
+import OrderDetailed from "../components/OrderDetailed";
 
 export default function Results() {
   // Constants

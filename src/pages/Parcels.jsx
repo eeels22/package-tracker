@@ -1,6 +1,6 @@
 // NPM packages
-import Information from "./data/orders.json";
-import OrderConcise from "./components/OrderConcise";
+import Information from "../data/orders.json";
+import OrderConcise from "../components/OrderConcise";
 
 
 export default function Overview() {
