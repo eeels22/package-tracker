@@ -8,6 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function StatusIcon({ orderStatus }) {
+  // Switch the icon according to order status
   return (
     <div className="StatusIcon">
       {orderStatus === "order-info-received" && (
