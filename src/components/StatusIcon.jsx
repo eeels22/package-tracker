@@ -7,12 +7,11 @@ import {
   faSatelliteDish,
 } from "@fortawesome/free-solid-svg-icons";
 
-export default function StatusIcon({orderStatus}) {
-
+export default function StatusIcon({ orderStatus }) {
   return (
     <div className="StatusIcon">
       <p>Status icon should appear:</p>
-      {/* Switch icon depending on order status */}
+      {/* Switch icon according to order status */}
       {orderStatus === "order-info-received" && (
         <FontAwesomeIcon icon={faSatelliteDish} />
       )}
