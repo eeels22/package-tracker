@@ -1,9 +1,9 @@
 import StatusIcon from "./StatusIcon";
 import StatusWording from "./StatusWording";
 
-export default function OrderConcise({ information }) {
+export default function OrderDetailed({ information }) {
   return (
-    <div className="OrderConcise">
+    <div className="OrderDetailed">
       <StatusIcon orderStatus={information.status} />
       <p className="data-label">Sender</p>
       <p className="data-actual">{information.sender}</p>
