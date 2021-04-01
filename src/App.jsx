@@ -9,25 +9,16 @@ import Results from "./pages/Results";
 import "./styles/style.css";
 
 export default function App() {
-
-
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <BrowserRouter>
         <Switch>
           <Route component={Home} path="/" exact />
           <Route component={Parcels} path="/parcels/:id" />
           <Route component={Results} path="/results/:id" />
-        </Switch>        
-       </BrowserRouter>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
-
-/* <h1>Testing</h1>
-      <h2>Detailed</h2>
-      <div className="list">
-      {orderDetailedArray}  c
-      <h2>Concise</h2>
-      {orderConciseArray}   */
