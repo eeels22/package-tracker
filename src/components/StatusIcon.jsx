@@ -10,8 +10,6 @@ import {
 export default function StatusIcon({ orderStatus }) {
   return (
     <div className="StatusIcon">
-      <p>Status icon should appear:</p>
-      {/* Switch icon according to order status */}
       {orderStatus === "order-info-received" && (
         <FontAwesomeIcon icon={faSatelliteDish} />
       )}
