@@ -1,0 +1,17 @@
+.OrderDetailed .StatusIcon {
+  font-size: var(--font-size-x-big);
+}
+
+.data-label {
+  font-size: var(--font-size-small);
+  margin-bottom: 0px;
+}
+
+.data-actual {
+  font-size: var(--font-size-medium);
+  font-weight: 700;
+  margin-top: var(--space-small);
+  margin-bottom: var(--space-big);
+}
+
+/* TODO Account for some data being wrapped in divs, eg status */

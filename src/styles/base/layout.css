@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+.App {
+  background-color: var(--color-light-grey);
+  color: var(--color-black);
+  font-family: "Karla", sans-serif;
+  padding: var(--space-medium);
+}
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+.OrderConcise .StatusIcon {
+    font-size: var(--font-size-big);;
+}
+
+.sender {
+    font-size: var(--font-size-medium);
+    font-weight: 700;
+}
+
+.status {
+    font-size: var(--font-size-small);
+}

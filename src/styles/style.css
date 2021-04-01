@@ -6,6 +6,8 @@
 
 /* Modules */
 @import url("./modules/header.css");
+@import url("./modules/order-detailed.css");
+@import url("./modules/order-concise.css");
 
 /* Components */
 @import url("./components/typography.css");
