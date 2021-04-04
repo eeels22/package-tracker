@@ -1,12 +1,12 @@
 export default function Header() {
     //Constants
-    const logoObject = require(`../assets/logo.svg`);
-    const logoURL = logoObject.default;
+    const logoHeaderObject = require(`../assets/logo.svg`);
+    const logoHeaderURL = logoHeaderObject.default;
 
     return (
-        <Header className="Header">
-            <img src={logoURL} alt="YellowCorp logo"/>
-            <p>testing header</p>            
-        </Header>
+        <header className="Header">
+            <p>Testing Header</p>   
+            <img src={logoHeaderURL} alt="YellowCorp logo" className="logo-header" />                     
+        </header>
     )
 }

@@ -1,12 +1,15 @@
 .OrderConcise .StatusIcon {
-    font-size: var(--font-size-big);;
+  font-size: var(--font-size-big);
+  color: var(--color-yellow);
 }
 
 .sender {
-    font-size: var(--font-size-medium);
-    font-weight: 700;
+  font-size: var(--font-size-medium);
+  font-weight: 700;
 }
 
 .status {
-    font-size: var(--font-size-small);
+  font-size: var(--font-size-small);
 }
+
+/* override link style and add hover styling */

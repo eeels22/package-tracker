@@ -1,3 +1,9 @@
 header {
     background-color: var(--color-yellow);
+    padding: var(--space-medium);
+  }
+
+  .logo-header {
+    width: 60%;
+    margin: var(--space-big) auto;
   }
