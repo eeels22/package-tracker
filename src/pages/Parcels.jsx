@@ -1,18 +1,17 @@
-// NPM packages
+// Project files
 import Information from "../data/orders.json";
 import OrderConcise from "../components/OrderConcise";
 
-
-export default function Overview() {
+export default function Parcels() {
   // Constants
-  const orderConciseArray = Information.map((item) => (
+  const orderArray = Information.map((item) => (
     <OrderConcise key={item.id} information={item} />
   ));
 
   return (
     <div id="parcels" className="container">
-      <h1>Your parcels</h1>
-      {orderConciseArray}
+      <h1>All parcels</h1>
+      <div className="grid">{orderArray}</div>
     </div>
   );
 }
