@@ -1,6 +1,7 @@
 .OrderConcise .StatusIcon {
   font-size: var(--font-size-big);
   color: var(--color-yellow);
+
 }
 
 .sender {
@@ -12,4 +13,17 @@
   font-size: var(--font-size-small);
 }
 
+.OrderConcise {
+  display: grid;
+  grid-template-columns: var(--space-x-big) 1fr;
+  column-gap: var(--space-big);
+  justify-items: start;
+  align-items: center;
+  margin-left: var(--space-medium);
+  margin-bottom: var(--space-medium);
+}
+
+.left {
+
+}
 /* override link style and add hover styling */
