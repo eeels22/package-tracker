@@ -8,12 +8,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="89.417618mm"
-   height="15.968102mm"
-   viewBox="0 0 89.417618 15.968101"
+   height="23.299387mm"
+   viewBox="0 0 89.417618 23.299386"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
-   sodipodi:docname="logo2.svg">
+   sodipodi:docname="logo.svg">
   <defs
      id="defs2">
     <rect
@@ -50,14 +50,14 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.7354414"
      inkscape:cx="243.32331"
-     inkscape:cy="50.911347"
+     inkscape:cy="50.911348"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="847"
-     inkscape:window-x="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="1440"
      inkscape:window-y="25"
      inkscape:window-maximized="1" />
   <metadata
@@ -68,7 +68,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -103,7 +103,7 @@
          id="tspan1365"
          x="55.750923"
          y="73.064369"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Raleway;-inkscape-font-specification:'Raleway Italic';stroke-width:0.264583" /></text>
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Raleway;-inkscape-font-specification:'Raleway Italic';stroke-width:0.264583">On time since 2018</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
