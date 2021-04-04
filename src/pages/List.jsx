@@ -5,11 +5,12 @@ import { useRecoilState } from "recoil";
 // Project files
 import OrderConcise from "../components/OrderConcise";
 import backupInfo from "../data/orders.json";
-import {parcelState} from "../state/parcelData";
+import { parcelState } from "../state/parcelData";
 
 export default function List() {
   // Global state
   const [parcels, setParcels] = useRecoilState(parcelState); // array to hold the parcel data
+
   // Local state
   const [status, setStatus] = useState(0); // 0 = loading data, 1 = data loaded, 2 = error, use backup data;
 

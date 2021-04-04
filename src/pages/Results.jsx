@@ -2,7 +2,7 @@
 import { useRecoilValue } from "recoil";
 
 // Project files
-import {parcelState} from "../state/parcelData";
+import { parcelState } from "../state/parcelData";
 import OrderConcise from "../components/OrderConcise";
 
 export default function Results({ match }) {
@@ -21,7 +21,13 @@ export default function Results({ match }) {
   return (
     <div id="results" className="container">
       <h1>Search results</h1>
-      <div className="results-grid">{FilteredOrderArray}</div>
+      <div className="results-grid">
+        {filteredResults.length > 0 ? (
+          FilteredOrderArray
+        ) : (
+          <p>No results found. Try another search term.</p>
+        )}
+      </div>
     </div>
   );
 }
