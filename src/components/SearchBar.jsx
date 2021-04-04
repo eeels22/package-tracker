@@ -6,7 +6,7 @@ export default function SearchBar() {
   // Local state
   const [query, setQuery] = useState("");
 
-  // Property
+  // Constants
   const history = useHistory();
 
   // Methods
@@ -17,14 +17,18 @@ export default function SearchBar() {
   }
 
   return (
-    <form onSubmit={search} className="SearchBar">
-      <input
-        type="text"
-        placeholder="Search by sender name"
-        value={query}
-        onChange={(event) => setQuery(event.target.value)}
-      />
-      <input type="submit" value="Search" />
-    </form>
+    <div>      
+      <form onSubmit={search} className="SearchBar">
+        <label for="sender-search">Search parcels by sender</label>
+        <input
+          type="text"
+          id="sender-search"
+          placeholder="Enter name of sender"
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+        />
+        <input type="submit" value="Search" />
+      </form>
+    </div>
   );
 }
