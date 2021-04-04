@@ -1,5 +1,5 @@
+// StatusWording returns the order status in user-friendly text
 export default function StatusWording({ orderStatus }) {
-  // Switch the friendly status text according to order status
   return (
     <div>
       {orderStatus === "order-info-received" && (

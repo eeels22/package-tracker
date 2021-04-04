@@ -1,3 +1,5 @@
+// StatusIcon eturns the appropriate icon according to order status
+
 // NPM pacakge
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -8,7 +10,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function StatusIcon({ orderStatus }) {
-  // Switch the icon according to order status
   return (
     <div className="StatusIcon">
       {orderStatus === "order-info-received" && (
