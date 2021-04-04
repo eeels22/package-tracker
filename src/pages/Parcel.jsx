@@ -8,7 +8,7 @@ import OrderDetailed from "../components/OrderDetailed";
 export default function Parcel({ match }) {
   // Constants
   const routerID = match.params.id;
-  const parcel = Information.find((item) => item.id === routerID); // should it be parvel_id instead?
+  const parcel = Information.find((item) => item.parcel_id === routerID);
 
   return (
     <div id="parcel" className="container">
