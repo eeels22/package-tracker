@@ -22,7 +22,12 @@ export default function OrderDetailed({ information }) {
       <p className="data-actual">{information.verification_required}</p>
       <p className="data-label">Notes</p>
       {/* TODO Check if it's null */}
-      <p className="data-actual">{information.notes}</p>
+
+      {information.notes != null && (
+        <p className="data-actual">{information.notes}</p>
+      )}
+      {information.notes === null && <p className="data-actual">None</p>}
+
       {/* TODO convert to long date and time */}
       <p className="data-label">Last updated</p>
       <p className="data-actual">{information.last_updated}</p>
