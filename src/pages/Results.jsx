@@ -1,17 +1,21 @@
-// NPM packages
+// Project files
 import Information from "../data/orders.json";
-import OrderDetailed from "../components/OrderDetailed";
+import OrderConcise from "../components/OrderConcise";
 
-export default function Results() {
+export default function Results({ match }) {
   // Constants
-  const orderDetailedArray = Information.map((item) => (
-    <OrderDetailed key={item.id} information={item} />
+  const query = match.params.query.toUpperCase();
+  const filteredResults = Information.filter((item) =>
+    item.sender.toUpperCase().match(query)
+  );
+  const orderConciseArray = filteredResults.map((item) => (
+    <OrderConcise key={item.id} information={item} />
   ));
 
   return (
     <div id="results" className="container">
-      <h1>Parcel details</h1>
-      {orderDetailedArray}
+      <h1>Search results</h1>
+      <div className="results-grid">{orderConciseArray}</div>
     </div>
   );
 }
