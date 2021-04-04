@@ -8,14 +8,14 @@ export default function Results({ match }) {
   const filteredResults = Information.filter((item) =>
     item.sender.toUpperCase().match(query)
   );
-  const orderConciseArray = filteredResults.map((item) => (
+  const FilteredOrderArray = filteredResults.map((item) => (
     <OrderConcise key={item.id} information={item} />
   ));
 
   return (
     <div id="results" className="container">
       <h1>Search results</h1>
-      <div className="results-grid">{orderConciseArray}</div>
+      <div className="results-grid">{FilteredOrderArray}</div>
     </div>
   );
 }
