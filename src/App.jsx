@@ -1,5 +1,6 @@
 // NPM packages
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { RecoilRoot } from "recoil";
 
 // Project files
 import Header from "./components/Header";
@@ -12,6 +13,7 @@ import "./styles/style.css";
 export default function App() {
   return (
     <div className="App">
+      <RecoilRoot>
       <BrowserRouter>
         <Header />
         <Switch>
@@ -21,6 +23,7 @@ export default function App() {
           <Route path="/parcel/:id" exact component={Parcel} />
         </Switch>
       </BrowserRouter>
+      </RecoilRoot>
     </div>
   );
 }

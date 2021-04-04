@@ -1,11 +1,17 @@
+// NPM package
+import { useRecoilValue } from "recoil";
+
 // Project files
-import Information from "../data/orders.json";
+import {parcelState} from "../state/parcelData";
 import OrderConcise from "../components/OrderConcise";
 
 export default function Results({ match }) {
+  // Global state
+  const parcels = useRecoilValue(parcelState);
+
   // Constants
   const query = match.params.query.toUpperCase();
-  const filteredResults = Information.filter((item) =>
+  const filteredResults = parcels.filter((item) =>
     item.sender.toUpperCase().match(query)
   );
   const FilteredOrderArray = filteredResults.map((item) => (
