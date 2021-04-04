@@ -3,7 +3,20 @@ header {
     padding: var(--space-medium);
   }
 
-  .logo-header {
-    width: 60%;
+  .logo {
+    width: 70%;
     margin: var(--space-big) auto;
   }
+
+/* Tablets */
+@media (min-width: 550px) {
+  .logo {
+    width: 250px;
+    margin: var(--space-big) auto;
+  }
+
+}
+
+  /* Desktops */
+@media (min-width: 750px) {
+}

@@ -19,7 +19,6 @@
   column-gap: var(--space-big);
   justify-items: start;
   align-items: center;
-  margin-left: var(--space-medium);
   margin-bottom: var(--space-medium);
 }
 

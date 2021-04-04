@@ -11,6 +11,7 @@
 @import url("./modules/header.css");
 @import url("./modules/order-detailed.css");
 @import url("./modules/order-concise.css");
+@import url("./modules/search-bar.css");
 
 /* Components */
 @import url("./components/typography.css");

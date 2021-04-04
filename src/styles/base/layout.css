@@ -7,3 +7,7 @@ body {
   color: var(--color-black);
   font-family: "Karla", sans-serif;
 }
+
+.container {
+  margin: auto var(--space-medium);
+}

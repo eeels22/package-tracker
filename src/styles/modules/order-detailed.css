@@ -1,5 +1,6 @@
 .OrderDetailed .StatusIcon {
   font-size: var(--font-size-x-big);
+  margin: auto;
 }
 
 .data-label {
