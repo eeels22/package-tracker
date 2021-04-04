@@ -12,13 +12,9 @@ export default function Header() {
   return (
     <header className="Header">
       <Link to="/">
-        <img
-          src={logoHeaderURL}
-          alt="YellowCorp logo"
-          className="logo-header"
-        />
+        <img src={logoHeaderURL} alt="YellowCorp logo" className="logo" />
       </Link>
-      <SearchBar/>
+      <SearchBar />
     </header>
   );
 }

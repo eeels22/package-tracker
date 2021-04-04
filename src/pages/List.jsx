@@ -10,8 +10,13 @@ export default function List() {
 
   return (
     <div id="parcels" className="container">
-      <h1>All parcels</h1>
-      <p>Click on a parcel for full details, or use the search bar above to filter results.</p>
+      <div className="text-intro">
+        <h1>All parcels</h1>
+        <p>
+          Click on a parcel for full details, or use the search bar above to
+          filter results.
+        </p>
+      </div>
       <div className="grid">{OrderArray}</div>
     </div>
   );

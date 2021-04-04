@@ -17,9 +17,11 @@ export default function SearchBar() {
   }
 
   return (
-    <div>      
-      <form onSubmit={search} className="SearchBar">
-        <label for="sender-search">Search parcels by sender</label>
+    <div className="SearchBar">
+      <form onSubmit={search}>
+        <label htmlFor="sender-search" className="search-label">
+          Search parcels by sender
+        </label>
         <input
           type="text"
           id="sender-search"
