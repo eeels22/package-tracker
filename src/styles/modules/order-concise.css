@@ -1,5 +1,9 @@
 .OrderConcise .StatusIcon {
   font-size: var(--font-size-big);
+  color: var(--color-brown);
+}
+
+.OrderConcise .StatusIcon:hover {
   color: var(--color-yellow);
 }
 
@@ -7,6 +11,7 @@
   font-size: var(--font-size-medium-big);
   font-weight: 700;
   margin-bottom: 0px;
+  color: var(--color-black);
 }
 
 .status {
@@ -21,4 +26,15 @@
   justify-items: start;
   align-items: center;
   margin-bottom: var(--space-medium);
+}
+
+
+.OrderConcise a {
+    color: var(--color-brown);
+    text-decoration: none;
+}
+
+.OrderConcise a:hover {
+    color: var(--color-brown);
+    text-decoration: none;
 }

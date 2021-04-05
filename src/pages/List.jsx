@@ -1,6 +1,7 @@
 // NPM Packages
 import { useState, useEffect } from "react";
 import { useRecoilState } from "recoil";
+import { Link } from "react-router-dom";
 
 // Project files
 import OrderConcise from "../components/OrderConcise";
@@ -48,7 +49,7 @@ export default function List() {
         <h1>All parcels</h1>
         <p>
           Click on a parcel for full details, or use the search bar above to
-          filter results.
+          filter results by sender.
         </p>
       </div>
       <div className="grid">
@@ -56,6 +57,10 @@ export default function List() {
         {status === 1 && ParcelsArray}
         {status === 2 && ParcelsArray}
       </div>
+      <hr />
+      <Link className="back-to-home" to="/">
+        ⬅ Back to home
+      </Link>
     </div>
   );
 }
