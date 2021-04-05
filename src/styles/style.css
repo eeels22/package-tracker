@@ -4,8 +4,6 @@
 
 /* Pages/Templates */
 @import url("./pages/home.css");
-@import url("./pages/list.css");
-@import url("./pages/results.css");
 
 /* Modules */
 @import url("./modules/header.css");

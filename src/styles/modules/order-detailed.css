@@ -1,8 +1,8 @@
 .OrderDetailed .StatusIcon {
   font-size: var(--font-size-x-big);
-  margin: auto;
   color: var(--color-yellow);
   margin-bottom: var(--space-big);
+  text-align: center;
 }
 
 .data-label {
