@@ -1,6 +1,10 @@
 # YellowCorp package tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple web app that displays a list of orders (or parcels) with some details that customers need to know like order status, ETAs, pickup locations, etc.
+
+This project was created as a student project for Software Development Academy.
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and supports major mobile and desktop browsers/layouts.
 
 ## Available Scripts
 
@@ -23,3 +27,36 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Dependencies
+
+The app makes use of these packages:
+### React
+<li>react</li>
+<li>react-dom</li>
+<li>react-scripts</li>
+<br/>
+
+### Navigational components
+<li>react-router-dom</li>
+<br/>
+
+### Global state management
+<li>recoil</li>
+<br/>
+
+### Icons
+<li>@fortawesome/free-regular-svg-icons</li>
+<li>@fortawesome/free-solid-svg-icons</li>
+<li>@fortawesome/react-fontawesome</li>
+
+## Authors and acknowledgments
+Thank you to the staff and teaching assistants of SDA.
+
+## Photo credits
+Van illustration by [DrawKit](https://www.drawkit.io/)
+
+
+    
+
+
