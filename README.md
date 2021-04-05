@@ -2,13 +2,17 @@
 
 A simple web app that displays a list of orders (or parcels) with some details that customers need to know like order status, ETAs, pickup locations, etc.
 
-This project was created as a student project for Software Development Academy.
+This project was created as a student project for Software Development Academy (SDA).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and supports major mobile and desktop browsers/layouts.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs the dependencies (read on for details) in the local node_modules folder.
 
 ### `npm start`
 
@@ -30,33 +34,35 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Dependencies
 
-The app makes use of these packages:
+The app makes use of the following packages:
+
 ### React
+
 <li>react</li>
 <li>react-dom</li>
 <li>react-scripts</li>
 <br/>
 
 ### Navigational components
+
 <li>react-router-dom</li>
 <br/>
 
 ### Global state management
+
 <li>recoil</li>
 <br/>
 
 ### Icons
+
 <li>@fortawesome/free-regular-svg-icons</li>
 <li>@fortawesome/free-solid-svg-icons</li>
 <li>@fortawesome/react-fontawesome</li>
 
 ## Authors and acknowledgments
-Thank you to the staff and teaching assistants of SDA.
 
-## Photo credits
+Thanks to Eduardo Alvarez (Front End teacher at SDA), the teaching assistants, my fellow SDA participants and Chibi Godzilla.
+
+## Image credits
+
 Van illustration by [DrawKit](https://www.drawkit.io/)
-
-
-    
-
-
