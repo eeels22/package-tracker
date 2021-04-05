@@ -1,6 +1,8 @@
 .OrderDetailed .StatusIcon {
   font-size: var(--font-size-x-big);
   margin: auto;
+  color: var(--color-yellow);
+  margin-bottom: var(--space-big);
 }
 
 .data-label {
@@ -9,6 +11,13 @@
 }
 
 .data-actual {
+  font-size: var(--font-size-medium);
+  font-weight: 700;
+  margin-top: var(--space-small);
+  margin-bottom: var(--space-big);
+}
+
+.OrderDetailed .status {
   font-size: var(--font-size-medium);
   font-weight: 700;
   margin-top: var(--space-small);
