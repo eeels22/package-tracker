@@ -1,6 +1,6 @@
 .OrderDetailed .StatusIcon {
   font-size: var(--font-size-x-big);
-  color: var(--color-yellow);
+  color: var(--color-brown);
   margin-bottom: var(--space-big);
   text-align: center;
 }
@@ -8,6 +8,7 @@
 .data-label {
   font-size: var(--font-size-small);
   margin-bottom: 0px;
+  color: var(--color-brown);
 }
 
 .data-actual {
@@ -23,5 +24,3 @@
   margin-top: var(--space-small);
   margin-bottom: var(--space-big);
 }
-
-/* TODO Account for some data being wrapped in divs, eg status */

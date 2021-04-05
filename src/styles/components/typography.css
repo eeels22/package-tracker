@@ -7,6 +7,7 @@
 h1 {
   font-family: "Rubik", sans-serif;
   font-size: var(--space-x-big);
+  margin-bottom: var(--space-x-big);
 }
 
 h2 {
@@ -14,11 +15,12 @@ h2 {
 }
 
 a {
-    color: var(--color-brown);
-    text-decoration: none;
+  color: var(--color-brown);
+  text-decoration: none;
 }
 
 a:hover {
-    color: var(--color-brown);
-    text-decoration: underline;
+font-weight: 700;
+text-decoration: underline;
+  
 }
