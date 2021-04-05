@@ -1,11 +1,12 @@
 :root {
-  /* Color */  
-  --color-white: #FFFFFF;
-  --color-light-grey: #F3F3F3;
-  --color-medium-grey: #BFBFBF;
+  /* Color */
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-medium-grey: #bfbfbf;
   --color-black: #000000;
-  --color-blue: #518BFF;
-  --color-yellow: #FFC200;
+  --color-blue: #518bff;
+  --color-yellow: #ffc200;
+  --color-brown: #a74704;
 
   /* Space */
   --space-small: 8px;
@@ -17,6 +18,7 @@
   /* Font sizes */
   --font-size-small: 14px;
   --font-size-medium: 16px;
+  --font-size-medium-big: 20px;
   --font-size-big: 32px;
   --font-size-x-big: 48px;
 }

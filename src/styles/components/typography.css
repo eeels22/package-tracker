@@ -15,3 +15,13 @@ h1 {
 h2 {
   font-size: var(--space-big);
 }
+
+a {
+    color: var(--color-brown);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-brown);
+    text-decoration: underline;
+}
