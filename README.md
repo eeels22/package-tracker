@@ -1,10 +1,12 @@
 # YellowCorp package tracker
 
-A simple web app that displays a list of orders (or parcels) with some details that customers need to know like order status, ETAs, pickup locations, etc.
+A simple web app that displays a list of orders (or parcels). \
+More details are shown when the user clicks on a particular parcel, for example: order status, ETAs, pickup location. 
 
-This project was created as a student project for Software Development Academy (SDA).
+This project was created as a student project for Software Development Academy (SDA). \
+It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and supports major mobile and desktop browsers/layouts.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and supports major mobile and desktop browsers/layouts.
+The web app is hosted at https://package-tracker-sda9.web.app/
 
 ## Available Scripts
 
@@ -28,13 +30,11 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The app is then ready to be deployed!
 
 ## Dependencies
 
-The app makes use of the following packages:
+The app uses the following packages:
 
 ### React
 
@@ -58,10 +58,11 @@ The app makes use of the following packages:
 <li>@fortawesome/free-regular-svg-icons</li>
 <li>@fortawesome/free-solid-svg-icons</li>
 <li>@fortawesome/react-fontawesome</li>
+<br/>
 
 ## Authors and acknowledgments
 
-Thanks to Eduardo Alvarez (Front End teacher at SDA), the teaching assistants, my fellow SDA participants and Chibi Godzilla.
+Thanks to Eduardo Alvarez (Front End teacher at SDA), the teaching assistants, fellow classmates and Chibi Godzilla.
 
 ## Image credits
 
