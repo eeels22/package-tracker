@@ -6,7 +6,7 @@ import SearchBar from "./SearchBar";
 
 export default function Header() {
   //Constants
-  const logoHeaderObject = require(`../assets/logo.svg`);
+  const logoHeaderObject = require(`../assets/logo.png`);
   const logoHeaderURL = logoHeaderObject.default;
 
   return (
