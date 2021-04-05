@@ -9,21 +9,19 @@
 
 .search-box {
   border: none;
-  border-radius: 5px;
   text-align: center;
   font-family: "Karla", sans-serif;
 }
 
 .search-button {
   border: none;
-  border-radius: 5px;
-  background-color: var(--color-light-grey);
+  background-color: var(--color-medium-grey);
   font-family: "Karla", sans-serif;
   font-weight: 700;
 }
 
 .search-button:hover {
-  background-color: var(--color-medium-grey);
+  background-color: var(--color-light-grey);
 }
 
 .search-input {
@@ -41,7 +39,6 @@
   .search-input {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    column-gap: var(--space-big);
     align-items: stretch;
   }
 }
