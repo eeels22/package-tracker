@@ -9,5 +9,20 @@ body {
 }
 
 .container {
-  margin: auto var(--space-medium);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: var(--space-medium);
+}
+
+@media (min-width: 400px) {
+  .container {
+    padding: var(--space-big);
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 600px;
+    padding: var(--space-big) 0;
+  }
 }

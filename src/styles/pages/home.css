@@ -1,16 +1,5 @@
-#home {
-  background-color: var(--color-yellow);
-}
-
-.logo-home {
-  width: 80%;
-  max-width: 300px;
-  overflow: hidden;
-  margin: auto;
-}
-
 .image-van {
   width: 90%;
   max-width: 500px;
-  margin: auto;
+  margin: var(--space-big) auto;
 }

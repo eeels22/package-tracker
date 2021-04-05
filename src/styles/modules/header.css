@@ -1,6 +1,9 @@
 header {
     background-color: var(--color-yellow);
     padding: var(--space-medium);
+    display: grid;
+    grid-template-rows: 1fr auto;
+    align-items: center;
   }
 
   .logo {
@@ -13,6 +16,12 @@ header {
   .logo {
     width: 250px;
     margin: var(--space-big) auto;
+  }
+
+  header {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: var(--space-xx-big);
   }
 
 }
