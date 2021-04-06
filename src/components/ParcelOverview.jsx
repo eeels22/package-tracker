@@ -7,7 +7,7 @@ import StatusWording from "./StatusWording";
 
 export default function ParcelOverview({ information }) {
   return (
-    <Link to={`/parcel/${information.parcel_id}`} className="order-link">
+    <Link to={`/parcel/${information.parcel_id}`} className="parcel-link">
       <div className="ParcelOverview">
         <div className="left">
           <StatusIcon orderStatus={information.status} />

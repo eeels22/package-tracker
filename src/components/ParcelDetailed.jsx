@@ -2,9 +2,9 @@ import StatusIcon from "./StatusIcon";
 import StatusWording from "./StatusWording";
 import Date from "./Date";
 
-export default function OrderDetailed({ information }) {
+export default function ParcelDetailed({ information }) {
   return (
-    <div className="OrderDetailed">
+    <div className="ParcelDetailed">
       <StatusIcon orderStatus={information.status} />
       <p className="data-label">Sender</p>
       <p className="data-actual">{information.sender}</p>

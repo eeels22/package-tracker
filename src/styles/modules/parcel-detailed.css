@@ -1,4 +1,4 @@
-.OrderDetailed .StatusIcon {
+.ParcelDetailed .StatusIcon {
   font-size: var(--font-size-x-big);
   color: var(--color-brown);
   margin-bottom: var(--space-big);
@@ -18,7 +18,7 @@
   margin-bottom: var(--space-big);
 }
 
-.OrderDetailed .status {
+.ParcelDetailed .status {
   font-size: var(--font-size-medium);
   font-weight: 700;
   margin-top: var(--space-small);
