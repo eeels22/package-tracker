@@ -1,6 +1,6 @@
 import StatusIcon from "./StatusIcon";
 import StatusWording from "./StatusWording";
-import Date from "./Date";
+import DateTime from "./DateTime";
 
 export default function ParcelDetailed({ information }) {
   return (
@@ -11,7 +11,7 @@ export default function ParcelDetailed({ information }) {
       <p className="data-label">Status</p>
       <StatusWording orderStatus={information.status} />
       <p className="data-label">Estimated time of arrival</p>
-      <Date dateString={information.eta} />
+      <DateTime dateString={information.eta} />
       <p className="data-label">Parcel ID</p>
       <p className="data-actual">{information.parcel_id}</p>
       <p className="data-label">Pickup location</p>
@@ -31,7 +31,7 @@ export default function ParcelDetailed({ information }) {
         <p className="data-actual">None</p>
       )}
       <p className="data-label">Last updated</p>
-      <Date dateString={information.last_updated} />
+      <DateTime dateString={information.last_updated} />
     </div>
   );
 }

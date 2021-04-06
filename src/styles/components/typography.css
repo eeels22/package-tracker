@@ -14,7 +14,12 @@ h2 {
   font-size: var(--space-big);
 }
 
+p {
+  font-size: var(--space-medium);
+}
+
 a {
+  color: var(--color-brown);
   text-decoration: none;
 }
 

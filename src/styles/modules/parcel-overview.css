@@ -7,20 +7,33 @@
 .sender {
   font-size: var(--font-size-medium-big);
   font-weight: 700;
+  margin-top: var(--space-medium);
   margin-bottom: 0px;
   color: var(--color-black);
 }
 
 .ParcelOverview .status {
-  margin-top: var(--space-small);
-  font-size: var(--font-size-medium);
+  margin-top: var(--space-medium);
   color: var(--color-brown);
+  margin-bottom: 0px;
+}
+
+.eta {
+  margin-top: var(--space-small);
+  color: var(--color-brown);
+  margin-bottom: 0px;
+}
+
+.location {
+  margin-top: var(--space-small);
+  color: var(--color-brown);
+  margin-bottom: var(--space-medium);
 }
 
 .ParcelOverview {
   display: grid;
   grid-template-columns: var(--space-x-big) 1fr;
-  column-gap: var(--space-big);
+  column-gap: var(--space-x-big);
   justify-items: start;
   align-items: center;
   margin-bottom: var(--space-medium);
@@ -28,6 +41,7 @@
 }
 
 .ParcelOverview:hover {
-  border: var(--space-x-small) solid var(--color-medium-grey);
+  border: var(--space-x-small) solid var(--color-yellow);
   padding-left: var(--space-small);
+  background-color: var(--color-white);
 }
