@@ -17,22 +17,3 @@ h2 {
 p {
   font-size: var(--space-medium);
 }
-
-a {
-  color: var(--color-brown);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-.link {
-  color: var(--color-brown);
-  text-decoration: none;
-}
-
-.link:hover {
-  font-weight: 700;
-  text-decoration: underline;
-}

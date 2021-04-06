@@ -32,6 +32,29 @@ The build is minified and the filenames include the hashes. The app is then read
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+## Dependencies
+
+The app uses the following packages:
+
+### React
+
+<li>react ^17.0.2</li>
+<li>react-dom ^17.0.2</li>
+<li>react-scripts 4.0.3</li><br>
+
+### Navigational components
+
+<li>react-router-dom ^5.2.0</li><br>
+
+### Global state management
+
+<li>recoil ^0.2.0</li><br>
+
+### Icons
+
+<li>@fortawesome/free-solid-svg-icons ^5.15.3</li>
+<li>@fortawesome/react-fontawesome ^0.1.14</li><br>
+
 ## Using the app
 
 ### Home page
@@ -62,35 +85,12 @@ _Figure 3: Parcel details on desktop view_
 
 All pages display a search bar in the header, where you can search for parcels by sender.
 
-Search results include part matches, so searching for "oo" will return parcels sent by "Cogidoo" and "Voomm".
+Search results include part matches, so searching for "oo" will return parcels sent by "Oloo" and "Rooxo".
 
 Click on a parcel result to see the details.
 
 _Figure 4: Search results showing part matches on desktop view_
 ![Search results desktop view](screenshots/results-desktop.png)
-
-## Dependencies
-
-The app uses the following packages:
-
-### React
-
-<li>react ^17.0.2</li>
-<li>react-dom ^17.0.2</li>
-<li>react-scripts 4.0.3</li><br>
-
-### Navigational components
-
-<li>react-router-dom ^5.2.0</li><br>
-
-### Global state management
-
-<li>recoil ^0.2.0</li><br>
-
-### Icons
-
-<li>@fortawesome/free-solid-svg-icons ^5.15.3</li>
-<li>@fortawesome/react-fontawesome ^0.1.14</li><br>
 
 ## Authors and acknowledgments
 

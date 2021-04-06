@@ -41,7 +41,6 @@
 }
 
 .ParcelOverview:hover {
-  border: var(--space-x-small) solid var(--color-yellow);
   padding-left: var(--space-small);
   background-color: var(--color-white);
 }

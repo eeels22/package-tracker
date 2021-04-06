@@ -20,10 +20,12 @@ export default function Parcel({ match }) {
       <div className="ParcelDetailed">
         <ParcelDetailed key={parcel.id} information={parcel} />
       </div>
-      <hr/>
-      <Link className="back-link" to="/list">
-        ⬅ Back to all parcels
-      </Link>
+      <hr />
+      <div className="center">
+        <Link className="back-link" to="/list">
+          ⬅ Back to all parcels
+        </Link>
+      </div>
     </div>
   );
 }

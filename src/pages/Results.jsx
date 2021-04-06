@@ -1,11 +1,10 @@
 // NPM package
 import { useRecoilValue } from "recoil";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 // Project files
 import { parcelState } from "../state/parcelData";
 import ParcelOverview from "../components/ParcelOverview";
-
 
 export default function Results({ match }) {
   // Global state
@@ -30,9 +29,11 @@ export default function Results({ match }) {
           <p>No results found. Try another search term.</p>
         )}
         <hr />
-        <Link className="back-link" to="/list">
-          ⬅ Back to all parcels
-        </Link>
+        <div className="center">
+          <Link className="back-link" to="/list">
+            ⬅ Back to all parcels
+          </Link>
+        </div>
       </div>
     </div>
   );

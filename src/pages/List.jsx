@@ -58,9 +58,11 @@ export default function List() {
         {status === 2 && ParcelsArray}
       </div>
       <hr />
-      <Link className="back-link" to="/">
-        ⬅ Back to home
-      </Link>
+      <div className="center">
+        <Link className="back-link" to="/">
+          ⬅ Back to home
+        </Link>
+      </div>
     </div>
   );
 }
