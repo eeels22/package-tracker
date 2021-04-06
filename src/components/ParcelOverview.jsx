@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 import StatusIcon from "./StatusIcon";
 import StatusWording from "./StatusWording";
 
-export default function OrderConcise({ information }) {
+export default function ParcelOverview({ information }) {
   return (
     <Link to={`/parcel/${information.parcel_id}`} className="order-link">
-      <div className="OrderConcise">
+      <div className="ParcelOverview">
         <div className="left">
           <StatusIcon orderStatus={information.status} />
         </div>

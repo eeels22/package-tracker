@@ -3,7 +3,7 @@ import { useRecoilValue } from "recoil";
 
 // Project files
 import { parcelState } from "../state/parcelData";
-import OrderConcise from "../components/OrderConcise";
+import ParcelOverview from "../components/ParcelOverview";
 
 export default function Results({ match }) {
   // Global state
@@ -15,7 +15,7 @@ export default function Results({ match }) {
     item.sender.toUpperCase().match(query)
   );
   const FilteredOrderArray = filteredResults.map((item) => (
-    <OrderConcise key={item.id} information={item} />
+    <ParcelOverview key={item.id} information={item} />
   ));
 
   return (

@@ -4,7 +4,7 @@ import { useRecoilState } from "recoil";
 import { Link } from "react-router-dom";
 
 // Project files
-import OrderConcise from "../components/OrderConcise";
+import ParcelOverview from "../components/ParcelOverview";
 import backupInfo from "../data/orders.json";
 import { parcelState } from "../state/parcelData";
 
@@ -18,7 +18,7 @@ export default function List() {
   // Constants
   const API_URL = "https://my.api.mockaroo.com/orders.json?key=e49e6840";
   const ParcelsArray = parcels.map((item) => (
-    <OrderConcise key={item.id} information={item} />
+    <ParcelOverview key={item.id} information={item} />
   ));
 
   // Methods
