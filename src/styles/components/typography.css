@@ -15,12 +15,19 @@ h2 {
 }
 
 a {
-  color: var(--color-brown);
   text-decoration: none;
 }
 
 a:hover {
-font-weight: 700;
-text-decoration: underline;
-  
+  text-decoration: none;
+}
+
+.link {
+  color: var(--color-brown);
+  text-decoration: none;
+}
+
+.link:hover {
+  font-weight: 700;
+  text-decoration: underline;
 }
