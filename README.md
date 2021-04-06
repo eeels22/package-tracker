@@ -1,36 +1,63 @@
 # YellowCorp package tracker
+## Description
 
-A simple web app that displays a list of orders (or parcels).
+This is a simple web app that displays a list of tracked parcels fetched from an API endpoint.
 
-This project was created as a student project for Software Development Academy (SDA). It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and supports major mobile and desktop browsers/layouts.
+This project was created as an assignment for Software Development Academy (SDA). It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and supports major mobile and desktop browsers/layouts.
 
 The web app is hosted by Firebase at https://package-tracker-sda9.web.app/
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+Clone this repository:  
 
-### `npm install`
+`git clone https://github.com/eeels22/package-tracker.git`
+
+In the project directory, run:
+
+`npm install`
 
 Installs the project's dependencies (read on for details) in the local node_modules folder.
 
-### `npm start`
+`npm start`
 
 Runs the app in the development mode.
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
 
-The page will reload if you make edits. You will also see any lint errors in the console.
+`npm run build`
 
-### `npm run build`
+Builds the app for production to the build folder.
 
-Builds the app for production to the `build` folder.
-
-It correctly bundles React in production mode and optimizes the build for the best performance.
+It correctly bundles React in production mode and optimizes the build for the best performance.  
 
 The build is minified and the filenames include the hashes. The app is then ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Deployment
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) in the React documentation for diferent deployment options.
+
+## Dependencies
+
+The app uses the following packages:
+
+### React
+
+<li>react ^17.0.2</li>
+<li>react-dom ^17.0.2</li>
+<li>react-scripts 4.0.3</li><br>
+
+### Navigational components
+
+<li>react-router-dom ^5.2.0</li><br>
+
+### Global state management
+
+<li>recoil ^0.2.0</li><br>
+
+### Icons
+
+<li>@fortawesome/free-solid-svg-icons ^5.15.3</li>
+<li>@fortawesome/react-fontawesome ^0.1.14</li><br>
 
 ## Using the app
 
@@ -62,35 +89,12 @@ _Figure 3: Parcel details on desktop view_
 
 All pages display a search bar in the header, where you can search for parcels by sender.
 
-Search results include part matches, so searching for "oo" will return parcels sent by "Cogidoo" and "Voomm".
+Search results include part matches, so searching for "oo" will return parcels sent by "Oloo" and "Rooxo".
 
 Click on a parcel result to see the details.
 
 _Figure 4: Search results showing part matches on desktop view_
 ![Search results desktop view](screenshots/results-desktop.png)
-
-## Dependencies
-
-The app uses the following packages:
-
-### React
-
-<li>react ^17.0.2</li>
-<li>react-dom ^17.0.2</li>
-<li>react-scripts 4.0.3</li><br>
-
-### Navigational components
-
-<li>react-router-dom ^5.2.0</li><br>
-
-### Global state management
-
-<li>recoil ^0.2.0</li><br>
-
-### Icons
-
-<li>@fortawesome/free-solid-svg-icons ^5.15.3</li>
-<li>@fortawesome/react-fontawesome ^0.1.14</li><br>
 
 ## Authors and acknowledgments
 

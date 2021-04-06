@@ -1,4 +1,4 @@
-.OrderDetailed .StatusIcon {
+.ParcelDetailed .StatusIcon {
   font-size: var(--font-size-x-big);
   color: var(--color-brown);
   margin-bottom: var(--space-big);
@@ -6,20 +6,20 @@
 }
 
 .data-label {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-medium);
   margin-bottom: 0px;
   color: var(--color-brown);
 }
 
 .data-actual {
-  font-size: var(--font-size-medium);
+  font-size: var(--font-size-medium-big);
   font-weight: 700;
   margin-top: var(--space-small);
   margin-bottom: var(--space-big);
 }
 
-.OrderDetailed .status {
-  font-size: var(--font-size-medium);
+.ParcelDetailed .status {
+  font-size: var(--font-size-medium-big);
   font-weight: 700;
   margin-top: var(--space-small);
   margin-bottom: var(--space-big);

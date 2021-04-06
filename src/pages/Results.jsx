@@ -1,9 +1,10 @@
 // NPM package
 import { useRecoilValue } from "recoil";
+import { Link } from "react-router-dom";
 
 // Project files
 import { parcelState } from "../state/parcelData";
-import OrderConcise from "../components/OrderConcise";
+import ParcelOverview from "../components/ParcelOverview";
 
 export default function Results({ match }) {
   // Global state
@@ -15,7 +16,7 @@ export default function Results({ match }) {
     item.sender.toUpperCase().match(query)
   );
   const FilteredOrderArray = filteredResults.map((item) => (
-    <OrderConcise key={item.id} information={item} />
+    <ParcelOverview key={item.id} information={item} />
   ));
 
   return (
@@ -27,6 +28,12 @@ export default function Results({ match }) {
         ) : (
           <p>No results found. Try another search term.</p>
         )}
+        <hr />
+        <div className="center">
+          <Link className="back-link" to="/list">
+            ⬅ Back to all parcels
+          </Link>
+        </div>
       </div>
     </div>
   );

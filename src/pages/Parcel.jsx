@@ -4,7 +4,7 @@ import { useRecoilValue } from "recoil";
 
 // Project files
 import { parcelState } from "../state/parcelData";
-import OrderDetailed from "../components/OrderDetailed";
+import ParcelDetailed from "../components/ParcelDetailed";
 
 export default function Parcel({ match }) {
   // Global state
@@ -17,13 +17,15 @@ export default function Parcel({ match }) {
   return (
     <div id="parcel" className="container">
       <h1>Parcel details</h1>
-      <div className="OrderDetailed">
-        <OrderDetailed key={parcel.id} information={parcel} />
+      <div className="ParcelDetailed">
+        <ParcelDetailed key={parcel.id} information={parcel} />
       </div>
-      <hr/>
-      <Link className="link" to="/list">
-        ⬅ Back to all parcels
-      </Link>
+      <hr />
+      <div className="center">
+        <Link className="back-link" to="/list">
+          ⬅ Back to all parcels
+        </Link>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,32 @@
+a {
+  color: var(--color-brown);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.link {
+  color: var(--color-brown);
+  text-decoration: none;
+}
+
+.link:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.back-link {
+  color: var(--color-brown);
+  text-decoration: none;
+}
+
+.back-link:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.center {
+  text-align: center;
+}
