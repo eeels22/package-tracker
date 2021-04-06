@@ -21,7 +21,7 @@ export default function Parcel({ match }) {
         <OrderDetailed key={parcel.id} information={parcel} />
       </div>
       <hr/>
-      <Link className="back-to-list" to="/list">
+      <Link className="link" to="/list">
         ⬅ Back to all parcels
       </Link>
     </div>

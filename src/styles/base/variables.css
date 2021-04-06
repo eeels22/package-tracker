@@ -6,9 +6,9 @@
   --color-black: #000000;
   --color-yellow: #ffc200;
   --color-brown: #a74704;
-  --color-blue: #518bff;
 
   /* Space */
+  --space-x-small: 4px;
   --space-small: 8px;
   --space-medium: 16px;
   --space-big: 24px;

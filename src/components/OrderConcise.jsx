@@ -7,7 +7,7 @@ import StatusWording from "./StatusWording";
 
 export default function OrderConcise({ information }) {
   return (
-    <Link to={`/parcel/${information.parcel_id}`}>
+    <Link to={`/parcel/${information.parcel_id}`} className="order-link">
       <div className="OrderConcise">
         <div className="left">
           <StatusIcon orderStatus={information.status} />
