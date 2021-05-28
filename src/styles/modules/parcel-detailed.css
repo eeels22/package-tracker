@@ -25,4 +25,6 @@
   margin-bottom: var(--space-big);
 }
 
-#mapid { height: 180px; }
+#mapId {
+  height: 250px;
+}
