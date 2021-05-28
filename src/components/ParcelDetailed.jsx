@@ -1,8 +1,22 @@
+// NPM packages
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+
+// Project files
 import StatusIcon from "./StatusIcon";
 import StatusWording from "./StatusWording";
 import DateTime from "./DateTime";
 
 export default function ParcelDetailed({ information }) {
+  // Const
+  const position = [
+    informtion.location_coordinate_latitude,
+    information.location_coordinate_longitude,
+  ];
+
+  // Components
+  // var myMap = L.map('mapId').setView(position, 13);
+  // var marker = L.marker(position).addTo(myMap);
+
   return (
     <div className="ParcelDetailed">
       <StatusIcon orderStatus={information.status} />
@@ -32,6 +46,17 @@ export default function ParcelDetailed({ information }) {
       )}
       <p className="data-label">Last updated</p>
       <DateTime dateString={information.last_updated} />
+      <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false}>
+        <TileLayer
+          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        <Marker position={[51.505, -0.09]}>
+          <Popup>
+            A pretty CSS3 popup. <br /> Easily customizable.
+          </Popup>
+        </Marker>
+      </MapContainer>
     </div>
   );
 }
