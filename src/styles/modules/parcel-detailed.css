@@ -24,3 +24,5 @@
   margin-top: var(--space-small);
   margin-bottom: var(--space-big);
 }
+
+#mapid { height: 180px; }
