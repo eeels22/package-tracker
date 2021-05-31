@@ -24,3 +24,7 @@
   margin-top: var(--space-small);
   margin-bottom: var(--space-big);
 }
+
+#mapId {
+  height: 250px;
+}

@@ -1,8 +1,16 @@
+// Project files
 import StatusIcon from "./StatusIcon";
 import StatusWording from "./StatusWording";
 import DateTime from "./DateTime";
+import Map from "./Map";
 
 export default function ParcelDetailed({ information }) {
+  // Const
+  const coordinates = [
+    information.location_coordinate_latitude,
+    information.location_coordinate_longitude,
+  ];
+
   return (
     <div className="ParcelDetailed">
       <StatusIcon orderStatus={information.status} />
@@ -32,6 +40,7 @@ export default function ParcelDetailed({ information }) {
       )}
       <p className="data-label">Last updated</p>
       <DateTime dateString={information.last_updated} />
+      <Map coordinates={coordinates} />
     </div>
   );
 }
