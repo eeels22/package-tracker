@@ -24,6 +24,7 @@ export default function ParcelDetailed({ information }) {
       <p className="data-actual">{information.parcel_id}</p>
       <p className="data-label">Pickup location</p>
       <p className="data-actual">{information.location_name}</p>
+      <Map coordinates={coordinates} />
       <p className="data-label">User phone number</p>
       <p className="data-actual">{information.user_phone}</p>
       <p className="data-label">Verification required?</p>
@@ -40,7 +41,6 @@ export default function ParcelDetailed({ information }) {
       )}
       <p className="data-label">Last updated</p>
       <DateTime dateString={information.last_updated} />
-      <Map coordinates={coordinates} />
     </div>
   );
 }

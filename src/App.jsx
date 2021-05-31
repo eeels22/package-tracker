@@ -1,4 +1,5 @@
 // NPM packages
+import { Suspense } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { RecoilRoot } from "recoil";
 
@@ -14,15 +15,17 @@ export default function App() {
   return (
     <div className="App">
       <RecoilRoot>
-      <BrowserRouter>
-        <Header />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/list" exact component={List} />
-          <Route path="/results/:query" component={Results} />
-          <Route path="/parcel/:id" exact component={Parcel} />
-        </Switch>
-      </BrowserRouter>
+        <Suspense fallback="Loading...">
+          <BrowserRouter>
+            <Header />
+            <Switch>
+              <Route path="/" exact component={Home} />
+              <Route path="/list" exact component={List} />
+              <Route path="/results/:query" component={Results} />
+              <Route path="/parcel/:id" exact component={Parcel} />
+            </Switch>
+          </BrowserRouter>
+        </Suspense>
       </RecoilRoot>
     </div>
   );
