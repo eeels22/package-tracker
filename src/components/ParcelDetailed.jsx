@@ -9,7 +9,7 @@ import Map from "./Map";
 
 export default function ParcelDetailed({ information }) {
   // Const
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const coordinates = [
     information.location_coordinate_latitude,

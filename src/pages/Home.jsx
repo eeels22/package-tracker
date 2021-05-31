@@ -6,7 +6,7 @@ export default function Home() {
   // Constants
   const imageObject = require(`../assets/YellowCorpVan.svg`);
   const imageURL = imageObject.default;
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div id="home" className="container">

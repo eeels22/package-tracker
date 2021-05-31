@@ -12,7 +12,7 @@ export default function Results({ match }) {
   const parcels = useRecoilValue(parcelState);
 
   // Constants
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const query = match.params.query.toUpperCase();
   const filteredResults = parcels.filter((item) =>

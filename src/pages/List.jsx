@@ -17,7 +17,7 @@ export default function List() {
   const [status, setStatus] = useState(0); // 0 = loading data, 1 = data loaded, 2 = error, use backup data;
 
   // Constants
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const API_URL = "https://my.api.mockaroo.com/orders.json?key=e49e6840";
   const ParcelsArray = parcels.map((item) => (

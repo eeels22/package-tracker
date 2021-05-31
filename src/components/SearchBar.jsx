@@ -9,7 +9,7 @@ export default function SearchBar() {
 
   // Constants
   const history = useHistory();
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   // Methods
   function search(event) {

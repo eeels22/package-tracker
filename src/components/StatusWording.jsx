@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 // StatusWording returns the order status in user-friendly text
 export default function StatusWording({ orderStatus }) {
   // Constants
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div>
