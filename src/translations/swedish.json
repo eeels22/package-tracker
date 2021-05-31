@@ -1,1 +1,41 @@
-{}
+{
+  "homeView": {
+    "title": "Håll enkelt reda på dina paket",
+    "viewAll": "Se alla dina paket",
+    "getOverview": "Få en översikt över alla spårade paket",
+    "searchOption": "Eller sök efter ett paket efter avsändare",
+    "searchCTA": "Använd sökfältet ovan för att hitta paket från en viss avsändare."
+  },
+  "listView": {
+    "title": "Alla paket",
+    "description": "Klicka på ett paket för fullständig information, eller använd sökfältet ovan för att filtrera resultat efter avsändare.",
+    "loading": "Laddning pågår...",
+    "back": "Tillbaka till startsidan"
+  },
+  "parcelView": {
+    "title": "Paketdetaljer",
+    "back": "Tillbaka till alla paket",
+    "sender": "Avsändare",
+    "status": "Status",
+    "eta": "Beräknad ankomsttid",
+    "id": "Paket-ID",
+    "location": "Hämtningsplats",
+    "phone": "Användarens telefonnummer",
+    "verification": "krävs verifiering?",
+    "yes": "Ja",
+    "no": "Nej",
+    "notes": "Notes",
+    "none": "Anteckningar",
+    "updated": "Senast uppdaterad"
+  },
+  "resultsView": {
+    "title": "Sökresultat",
+    "noResults": "Inga resultat funna. Försök med ett annat sökord.",
+    "back": "Tillbaka till alla paket"
+  },
+  "common": {
+    "searchLabel": "Sök efter paket per avsändare",
+    "placeholder": "Ange avsändarens namn",
+    "searchButton": "Sök"
+  }
+}
