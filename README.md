@@ -56,6 +56,11 @@ The app uses the following packages:
 
 <li>recoil ^0.2.0</li><br>
 
+### Internationalisation
+
+<li>i18next ^20.3.1</li>
+<li>react-i18next ^11.10.0</li><br>
+
 ### Icons
 
 <li>@fortawesome/free-solid-svg-icons ^5.15.3</li>
@@ -97,12 +102,19 @@ _Figure 3: Parcel details on desktop view_
 
 All pages display a search bar in the header, where you can search for parcels by sender.
 
-Search results include part matches, so searching for "oo" will return parcels sent by "Oloo" and "Rooxo".
+Search results include part matches, so searching for "oo" will return parcels sent by "Divanoodle" and "Zoonoodle".
 
 Click on a parcel result to see the details.
 
 _Figure 4: Search results showing part matches on desktop view_
 ![Search results desktop view](screenshots/results-desktop.png)
+
+### Choose language
+
+The app's default language is English but you can switch to Swedish by click on the language name in the top right.
+
+_Figure 5: Example of a page in Swedish_
+![Search results desktop view](screenshots/list-desktop-swedish.png)
 
 ## Authors and acknowledgments
 
