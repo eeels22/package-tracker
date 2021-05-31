@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { useRecoilState } from "recoil";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 // Project files
 import ParcelOverview from "../components/ParcelOverview";
@@ -16,6 +17,8 @@ export default function List() {
   const [status, setStatus] = useState(0); // 0 = loading data, 1 = data loaded, 2 = error, use backup data;
 
   // Constants
+  const { t } = useTranslation();
+
   const API_URL = "https://my.api.mockaroo.com/orders.json?key=e49e6840";
   const ParcelsArray = parcels.map((item) => (
     <ParcelOverview key={item.id} information={item} />
@@ -46,21 +49,18 @@ export default function List() {
   return (
     <div id="parcels" className="container">
       <div className="text-intro">
-        <h1>All parcels</h1>
-        <p>
-          Click on a parcel for full details, or use the search bar above to
-          filter results by sender.
-        </p>
+        <h1>{t("listView.title")}</h1>
+        <p>{t("listView.description")}</p>
       </div>
       <div className="grid">
-        {status === 0 && <p>Loading parcels...</p>}
+        {status === 0 && <p>{t("listView.loading")}</p>}
         {status === 1 && ParcelsArray}
         {status === 2 && ParcelsArray}
       </div>
       <hr />
       <div className="center">
         <Link className="back-link" to="/">
-          ⬅ Back to home
+          ⬅ {t("listView.back")}
         </Link>
       </div>
     </div>

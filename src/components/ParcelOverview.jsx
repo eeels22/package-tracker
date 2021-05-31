@@ -1,5 +1,6 @@
 // NPM Package
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 // Project files
 import StatusIcon from "./StatusIcon";
@@ -7,12 +8,14 @@ import StatusWording from "./StatusWording";
 import Date from "./Date";
 
 export default function ParcelOverview({ information }) {
-  // Const
+  // Constants
+  const { t } = useTranslation();
+
   const whetherArrived =
     information.status === "delivered" ||
     information.status === "ready-for-pickup"
-      ? "Arrived on"
-      : "Arriving on";
+      ? t("listView.arrivedOn")
+      : t("listView.arrivingOn");
 
   return (
     <Link to={`/parcel/${information.parcel_id}`} className="parcel-link">
@@ -26,7 +29,9 @@ export default function ParcelOverview({ information }) {
           <p className="eta">
             {whetherArrived} <Date dateString={information.eta} />
           </p>
-          <p className="location">Pick up from {information.location_name}</p>
+          <p className="location">
+            {t("listView.pickup")} {information.location_name}
+          </p>
         </div>
       </div>
     </Link>
