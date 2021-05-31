@@ -79,7 +79,7 @@ The app uses the following packages:
 Get started by clicking the link to view all parcels or search parcels by sender name using the search bar in the header.
 
 _Figure 1: Home page on desktop view_
-![Home desktop view](screenshots/home-desktop.png)
+![Home desktop view](./screenshots/home-desktop.png)
 <br/>
 
 ### All parcels page
@@ -89,14 +89,14 @@ Get an overview of all tracked parcels. The sender name, order status and matchi
 Click on a parcel to see further details.
 
 _Figure 2: All parcels page on desktop view_
-![All parcels desktop view](screenshots/list-desktop.png)
+![All parcels desktop view](./screenshots/list-desktop.png)
 
 ### Parcel details page
 
 Get more details about a parcel. Some values have been formatted to use more natural language (e.g. "none" instead of "null", "yes / no" instead of "true / false").
 
 _Figure 3: Parcel details on desktop view_
-![Parcel details desktop view](screenshots/parcel-desktop.png)
+![Parcel details desktop view](./screenshots/parcel-desktop.png)
 
 ### Search results page
 
@@ -107,14 +107,14 @@ Search results include part matches, so searching for "oo" will return parcels s
 Click on a parcel result to see the details.
 
 _Figure 4: Search results showing part matches on desktop view_
-![Search results desktop view](screenshots/results-desktop.png)
+![Search results desktop view](./screenshots/results-desktop.png)
 
 ### Choose language
 
 The app's default language is English but you can switch to Swedish by click on the language name in the top right.
 
 _Figure 5: Example of a page in Swedish_
-![Search results desktop view](screenshots/list-desktop-swedish.png)
+![Page with Swedish text](./screenshots/list-desktop-se.png)
 
 ## Authors and acknowledgments
 
