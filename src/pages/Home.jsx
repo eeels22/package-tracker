@@ -1,10 +1,12 @@
 // NPM package
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
   // Constants
   const imageObject = require(`../assets/YellowCorpVan.svg`);
   const imageURL = imageObject.default;
+  const { t, i18n } = useTranslation();
 
   return (
     <div id="home" className="container">
@@ -13,12 +15,14 @@ export default function Home() {
         alt="Illustration of a delivery van and route map"
         className="image-van"
       />
-      <h1>Track your parcels with ease</h1>
-      <h2>View all parcels</h2>
-      <p>Get an overview of all tracked parcels.</p>
-      <Link to="/list" className="link">View all parcels</Link>
-      <h2>Or search for a parcel by sender name</h2>
-      <p>Use the search bar above to find parcels from a particular sender.</p>
+      <h1>{t("homeView.title")}</h1>
+      <h2>{t("homeView.viewAll")}</h2>
+      <p>{t("homeView.getOverview")}</p>
+      <Link to="/list" className="link">
+        {t("homeView.viewAll")}
+      </Link>
+      <h2>{t("homeView.searchOption")}</h2>
+      <p>{t("homeView.searchCTA")}</p>
     </div>
   );
 }

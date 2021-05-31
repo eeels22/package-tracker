@@ -1,6 +1,7 @@
 // NPM package
 import { useRecoilValue } from "recoil";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 // Project files
 import { parcelState } from "../state/parcelData";
@@ -11,6 +12,8 @@ export default function Results({ match }) {
   const parcels = useRecoilValue(parcelState);
 
   // Constants
+  const { t, i18n } = useTranslation();
+
   const query = match.params.query.toUpperCase();
   const filteredResults = parcels.filter((item) =>
     item.sender.toUpperCase().match(query)
@@ -21,17 +24,17 @@ export default function Results({ match }) {
 
   return (
     <div id="results" className="container">
-      <h1>Search results</h1>
+      <h1>{t("resultsView.title")}</h1>
       <div className="results-grid">
         {filteredResults.length > 0 ? (
           FilteredOrderArray
         ) : (
-          <p>No results found. Try another search term.</p>
+          <p>{t("resultsView.noResults")}</p>
         )}
         <hr />
         <div className="center">
           <Link className="back-link" to="/list">
-            ⬅ Back to all parcels
+            ⬅ {t("resultsView.back")}
           </Link>
         </div>
       </div>
