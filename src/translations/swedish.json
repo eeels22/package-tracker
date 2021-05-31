@@ -19,17 +19,17 @@
     "status": "Status",
     "infoReceived": "Din beställning har mottagits",
     "onTheWay": "På väg",
-    "delivered": "Levereras",
+    "delivered": "Levererad",
     "ready": "Redo för upphämtning",
     "eta": "Beräknad ankomsttid",
     "id": "Paket-ID",
     "location": "Hämtningsplats",
     "phone": "Användarens telefonnummer",
-    "verification": "krävs verifiering?",
+    "verification": "Krävs verifiering?",
     "yes": "Ja",
     "no": "Nej",
-    "notes": "Notes",
-    "none": "Anteckningar",
+    "notes": "Anteckningar",
+    "none": "Finns inga",
     "updated": "Senast uppdaterad"
   },
   "resultsView": {
@@ -38,7 +38,7 @@
     "back": "Tillbaka till alla paket"
   },
   "common": {
-    "searchLabel": "Sök efter paket per avsändare",
+    "searchLabel": "Sök efter paket efter avsändare",
     "placeholder": "Ange avsändarens namn",
     "searchButton": "Sök"
   }
