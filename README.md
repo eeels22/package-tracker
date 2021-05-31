@@ -1,7 +1,8 @@
 # YellowCorp package tracker
+
 ## Description
 
-This is a simple web app that displays a list of tracked parcels fetched from an API endpoint.
+This web app displays a list of tracked parcels fetched from an API endpoint.
 
 This project was created as an assignment for Software Development Academy (SDA). It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and supports major mobile and desktop browsers/layouts.
 
@@ -9,7 +10,7 @@ The web app is hosted by Firebase at https://package-tracker-sda9.web.app/
 
 ## Installation
 
-Clone this repository:  
+Clone this repository:
 
 `git clone https://github.com/eeels22/package-tracker.git`
 
@@ -29,11 +30,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser. T
 
 Builds the app for production to the build folder.
 
-It correctly bundles React in production mode and optimizes the build for the best performance.  
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes. The app is then ready to be deployed!
 
 ### Deployment
+
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) in the React documentation for diferent deployment options.
 
 ## Dependencies
@@ -57,7 +59,13 @@ The app uses the following packages:
 ### Icons
 
 <li>@fortawesome/free-solid-svg-icons ^5.15.3</li>
-<li>@fortawesome/react-fontawesome ^0.1.14</li><br>
+<li>@fortawesome/react-fontawesome ^0.1.14</li>
+<li>@fortawesome/fontawesome-svg-core ^1.2.35</li><br>
+
+### Map
+
+<li>leaflet ^1.7.1</li>
+<li>react-leaflet ^3.2.0</li><br>
 
 ## Using the app
 
