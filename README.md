@@ -114,7 +114,7 @@ _Figure 4: Search results showing part matches on desktop view_
 The app's default language is English but you can switch to Swedish by click on the language name in the top right.
 
 _Figure 5: Example of a page in Swedish_
-![Search results desktop view](./screenshots/list-desktop-swedish.png)
+![Page with Swedish text](./screenshots/list-desktop-swedish.png)
 
 ## Authors and acknowledgments
 
